@@ -3,9 +3,9 @@ import "./App.css";
 
 function App() {
   const [todoList, setTodoList] = useState([
-    { id: 0, content: "123" },
-    { id: 1, content: "코딩 공부하기" },
-    { id: 2, content: "잠 자기" },
+    { id: 0, content: "노래 듣기" },
+    { id: 1, content: "공부 하기" },
+    { id: 2, content: "낮잠 자기" },
   ]);
 
   return (

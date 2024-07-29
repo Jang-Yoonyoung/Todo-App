@@ -1,11 +1,39 @@
+*{box-sizing: border-box;}
+
+body{
+  margin: 0 auto;
+}
+
 #root {
-  max-width: 1280px;
+  display: flex;
+  max-width: 1680px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: right;
   font-size: 1.2em;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
 }
 
 button{
-  margin-left: 1em;
+  margin: .7em;
+  background-color: #fac0c0 !important;
+  align-content: flex-end;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #d35c5c !important;
+}
+
+input{
+  height: 30px;
+  margin-left: 10px;
+}
+
+li{
+  width: 100%;
 }

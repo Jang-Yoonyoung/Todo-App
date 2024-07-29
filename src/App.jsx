@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+      <h1>Young's Todo List</h1>
       <TodoList todoList={todoList} setTodoList={setTodoList} />
       <hr />
       <TodoInput todoList={todoList} setTodoList={setTodoList} />
@@ -52,6 +53,8 @@ function TodoList({ todoList, setTodoList }) {
 
 function Todo({ todo, setTodoList }) {
   const [inputValue, setInputValue] = useState("");
+  const [inputShow, setInputShow] = useState(false)
+
   return (
     <li>
       {todo.content}
